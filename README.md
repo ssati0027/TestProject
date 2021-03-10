@@ -53,6 +53,6 @@ for example:
 11. Allow multiple delimiters like this:  
 “//[delim1][delim2]\n”  
 for example  
-“//[*][%]\n1*2%3” == 6. 
+“//[*][%]\n1***2%3” == 6. 
 12. make sure you can also handle multiple delimiters with length longer than one char  for example  
-“//[**][%%]\n1***2%%3” == 6. 
+“//[**][%%]\n1*****2%%3” == 6. 
