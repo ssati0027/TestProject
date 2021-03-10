@@ -55,4 +55,4 @@ for example:
 for example  
 “//[*][%]\n1*2%3” == 6. 
 12. make sure you can also handle multiple delimiters with length longer than one char  for example  
-“//[**][%%]\n1**2%%3” == 6. 
+“//[**][%%]\n1***2%%3” == 6. 
