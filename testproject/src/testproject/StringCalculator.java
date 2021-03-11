@@ -17,7 +17,7 @@ package testproject;
 					s+=a[i];
 					for(int j=i+1;j<a.length;j++)
 					{
-						if(Character.isDigit(a[j]))
+						if(Character.isDigit(a[j])&&a[i]!='0')
 						{
 							s+=a[j];
 							count++;
