@@ -27,7 +27,7 @@ package testproject;
 						{
 							break;
 						}
-						if(count>=3)
+						if(count>2)
 						{
 							s=b;
 							break;
