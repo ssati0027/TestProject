@@ -27,13 +27,12 @@ package testproject;
 						{
 							break;
 						}
+						
+					}
 						if(count>2)
 						{
 							s=b;
-							break;
 						}  
-					}
-					
 						int t=1;
 						for(int k=s.length()-1;k>=0;k--)
 						{
